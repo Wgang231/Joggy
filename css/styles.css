@@ -15,6 +15,11 @@
     box-sizing: border-box;
 }
 /* Topogryphy*/
+::selection {
+    background: var(--color-primary);
+    color: #fff;
+}
+
 html {
     /*62.5% of 16px= 10px */
     font-size: 62.5%;
