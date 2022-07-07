@@ -473,7 +473,7 @@ a {
 
 .quote__organization {
     color:var(--color-headings);
-    opacity: 0.4rem;
+    opacity: 0.4;
     font-size: 2rem;
     font-style: normal;
 }
@@ -815,7 +815,7 @@ a {
 
 }
 
-@media screen and (min-width: 768) {
+@media screen and (min-width: 768px) {
     .feature:nth-of-type(even) .feature__content {
         order: 2;
     }
@@ -829,7 +829,7 @@ a {
 
 @media screen and (min-width: 768px) {
     .block-showcase .grid {
-        grid-template-colums: 50% 50%;
+        grid-template-columns: 50% 50%;
     }
 
 
